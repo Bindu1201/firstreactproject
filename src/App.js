@@ -1,6 +1,7 @@
 
 import './App.css';
-import ParentComponent from './Components/UseCallback/ParentComponent';
+// import ParentComponent from './Components/UseCallback/ParentComponent';
+import Counter from './Components/UseMemo/Counter';
 // import DataFetchingTwo from './Components/UseReducer/DataFetchingTwo';
 // import DataFetchOne from './Components/UseReducer/DataFetchOne';
 // import UseReducerContext from './Components/UseReducer/UseReducerwithUseContext/UseReducerContext';
@@ -32,7 +33,8 @@ function App() {
       {/* <UseReducerContext/> */}
       {/* <DataFetchOne/> */}
       {/* <DataFetchingTwo/> */}
-      <ParentComponent/>
+      {/* <ParentComponent/> */}
+      <Counter/>
     </div>
   );
 }
